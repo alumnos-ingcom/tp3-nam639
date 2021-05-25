@@ -7,6 +7,5 @@ echo
 grep -E "^[^S][[:alnum:]]" grepdata.txt
 echo
 grep -E "[@]" grepdata.txt
-
-
-
+echo
+grep -E -i "[a,e,i,o,u][[:alpha:]]{1}[a,e,i,o,u]" grepdata.txt
